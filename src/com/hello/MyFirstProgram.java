@@ -7,6 +7,7 @@ public class MyFirstProgram {
 		System.out.println("hi im sajid");
 
 		System.out.println("hi im shahid");
+		System.out.println("vizag");
 
 		int age = 23;
 		if (age > 20) {
