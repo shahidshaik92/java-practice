@@ -10,6 +10,7 @@ public class Ages {
 		Scanner sc = new Scanner(System.in);
 		int age = sc.nextInt();
 		int anotherAge = sc.nextInt();
+		
 
 		if (age < 14 || anotherAge == 12) {
 			System.out.println("baby");
