@@ -8,6 +8,7 @@ public class Atm {
 		Scanner sc = new Scanner(System.in);
 		boolean success = true;
 		while (success) {
+
 			System.out.println("Automated teller machine");
 			System.out.println(" choose 1 for withdraw");
 			System.out.println(" choose 2 for deposit");
@@ -70,7 +71,7 @@ public class Atm {
 				success = false;
 			}
 		}
-System.out.println("Thanks");
+		System.out.println("Thanks");
 	}
 
 }
