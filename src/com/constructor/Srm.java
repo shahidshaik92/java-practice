@@ -15,7 +15,8 @@ public class Srm {
 		Srm obj = new Srm();
 
 		Srm onj1 = new Srm(2, 5);
-
 	}
+		
+
 
 }
