@@ -1,6 +1,7 @@
 package com.array;
 
-public class CountExample {
+public class CountPositiveNegativeExample {
+	
 	public static void main(String[] args) {
 		int array[] = { 1, 2, 3, -1, -2, -3 };
 		System.out.println("Given positive number");
@@ -9,7 +10,6 @@ public class CountExample {
 		for (i = 0; i < array.length; i++) {
 			if (array[i] > 0) {
 				positive = positive + 1;
-
 			}
 		}
 		System.out.println(positive);
@@ -17,9 +17,7 @@ public class CountExample {
 		for (int i1 = 0; i1 < array.length; i1++) {
 			if (array[i1] < 0) {
 				negative = negative + 1;
-
 			}
-
 		}
 		System.out.println(negative);
 	}

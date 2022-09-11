@@ -1,26 +1,31 @@
 package com.constructor;
 
 public class ParameterisedConstructorTest {
-	int roll;
-	String name;
 
-	ParameterisedConstructorTest(int r, String s) {
-		roll = r;
-		name = s;
+	int productId;
+	String productName;
+
+	ParameterisedConstructorTest(int r, String n) {
+		productId = r;
+		productName = n;
+		display();
+	}
+
+	public ParameterisedConstructorTest() {
+		System.out.println("Default Constructor is invoked");
 	}
 
 	void display() {
-		System.out.println(roll);
-		System.out.println(name);
+		System.out.println(productId + " " + productName);
 	}
 
 	public static void main(String[] args) {
-		ParameterisedConstructorTest p = new ParameterisedConstructorTest(2, "Sajid");
-		p.display();
+		System.out.println("hello, iphone user");
+		ParameterisedConstructorTest p = new ParameterisedConstructorTest(2, "iphone12");
+		ParameterisedConstructorTest p1 = new ParameterisedConstructorTest(3, "iphone13");
+		ParameterisedConstructorTest p2 = new ParameterisedConstructorTest(4, "iphone14");
 
-		ParameterisedConstructorTest p1 = new ParameterisedConstructorTest(3, "Baba");
-		p1.display();
-
+		ParameterisedConstructorTest defaultCon = new ParameterisedConstructorTest();
 
 	}
 
