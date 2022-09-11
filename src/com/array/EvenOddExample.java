@@ -1,4 +1,4 @@
-package com.example;
+package com.array;
 
 public class EvenOddExample {
 	public static void main(String[] arg) {

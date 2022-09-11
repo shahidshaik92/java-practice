@@ -1,4 +1,4 @@
-package com.example;
+package com.array;
 
 public class PositiveNegativeExample {
 	public static void main(String[] args) {
