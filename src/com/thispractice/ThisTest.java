@@ -4,6 +4,7 @@ public class ThisTest {
 
 	int productId;
 	String productName;
+	
 
 	ThisTest(int productId, String productName) {
 		this.productId = productId;
@@ -16,6 +17,7 @@ public class ThisTest {
 	}
 
 	void display() {
+		int s = 2;
 		System.out.println(productId + " " + productName);
 	}
 
