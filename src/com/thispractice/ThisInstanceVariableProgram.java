@@ -1,6 +1,6 @@
 package com.thispractice;
 
-  class Student {
+class Student {
 	int rollno;
 	String name;
 	float fee;
@@ -16,7 +16,7 @@ package com.thispractice;
 	}
 }
 
- public class ThisInstanceVariableProgram {
+public class ThisInstanceVariableProgram {
 	public static void main(String args[]) {
 		Student s1 = new Student(111, "BMW", 400000f);
 		Student s2 = new Student(112, "LADAKH", 50000f);
