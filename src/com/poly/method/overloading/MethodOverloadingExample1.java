@@ -9,7 +9,7 @@ class Adder {
 		return a + b;
 	}
 
-	public static double add(int a, int b) {
+	public static double add1(int a, int b) {
 		return a + b;
 	}
 
