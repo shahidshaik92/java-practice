@@ -1,4 +1,4 @@
-package com.poly.method.overloading;
+package com.polymorphism;
 
 class Adder {
 	public static int add(int i) {
