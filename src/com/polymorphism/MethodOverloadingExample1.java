@@ -1,8 +1,10 @@
 package com.polymorphism;
 
 class Adder {
-	public static int add(int i) {
+	public static int add(int i){
+		String s= "hi";
 		return i;
+		
 	}
 
 	public static int add(int a, int b) {
