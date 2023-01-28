@@ -14,11 +14,13 @@ class B {
 
 class C extends A,B{//suppose if it were  
 
+	
+}
 class MultipleExample {
 		 public static void main(String args[]){  
 		   C obj=new C();  
 		   obj.msg();
 	
 		 }
-}
+
 }
